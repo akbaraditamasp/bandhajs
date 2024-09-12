@@ -1,5 +1,5 @@
 {
-  "name": "bandhajs",
+  "name": "bandha",
   "version": "1.0.0",
   "description": "Simple Moddable SDK Framework",
   "main": "./dist/bandha.js",

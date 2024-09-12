@@ -18,7 +18,7 @@ To get started with **Bandha.js**, follow the steps below.
    You can quickly generate a new project skeleton using the **Bandha.js** CLI tool:
 
    ```bash
-   npx bandhajs init my-project
+   npx bandha init my-project
    ```
 
    This command will create a new project folder named `my-project` with all the necessary files.
