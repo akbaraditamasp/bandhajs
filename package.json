@@ -1,0 +1,38 @@
+{
+  "name": "bandhajs",
+  "version": "1.0.0",
+  "description": "Simple Moddable SDK Framework",
+  "main": "./dist/bandha.js",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "bin": {
+    "bandha": "./dist/bandha.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "Internet of Things",
+    "Microcontroller"
+  ],
+  "author": "akbaraditamasp <akbaraditamasp@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akbaraditamasp/bandhajs.git"
+  },
+  "homepage": "https://github.com/akbaraditamasp/bandhajs",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "degit": "^2.8.4",
+    "esbuild": "^0.23.1"
+  },
+  "devDependencies": {
+    "@types/degit": "^2.8.6",
+    "@types/node": "^22.5.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  }
+}
